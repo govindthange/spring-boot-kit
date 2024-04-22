@@ -91,14 +91,14 @@ public class CoreApplication {
 By default, the embedded server starts on port 8080. To change this provide a different value in `src/main/resources/application.properties` file:
 
 ```
-server.port=8081
+server.port=9090
 ```
 
 Or do the same if you are using an `application.yml` file:
 
 ```
 server:
-  port : 8081
+  port : 9090
 ```
 
 Both files are loaded automatically by Spring Boot if placed in the src/main/resources directory of a Maven application.
